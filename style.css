@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 0;
+  background-image: linear-gradient(to top left, #00ff4c 0%, #437251 100%);
+  align-items: center;
+  text-align: center;
+  color: floralwhite;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
