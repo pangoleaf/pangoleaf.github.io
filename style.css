@@ -11,13 +11,22 @@ html {
 body {
   height: 100vh;
   padding: 0;
-  background-image: linear-gradient(to top left, #00ff4c 0%, #437251 100%);
+  background-image: linear-gradient(to top left, #234b2f 0%, #00b637 100%);
   align-items: center;
   text-align: center;
   color: floralwhite;
 }
 
+.title {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 9vh;
+}
+
 .links {
   display: flex;
   flex-direction: column;
+}
+
+.link {
+  font-family: 'Fira Code', monospace;
 }
